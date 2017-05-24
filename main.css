@@ -1,3 +1,122 @@
-﻿body
-{
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: relative;
+    z-index: 2;
+}
+
+body {
+    background-color: #033109;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #ecf0f1;
+    font-size: 0.8em;
+    margin: 10px auto 20px auto;
+}
+
+    footer div {
+        text-shadow: 5px 5px 3px #000000;
+    }
+
+    footer a {
+        font-weight: 700;
+        color: #ecf0f1;
+    }
+
+#titlestuff {
+    color: #ecf0f1;
+    padding-top: 1%;
+    text-shadow: 4px 4px 3px #000000;
+}
+
+    #titlestuff i {
+        font-size: 1.2em;
+        margin-right: 3px;
+        text-shadow: -3px 4px 3px #000000;
+    }
+
+#description {
+    font-weight: 100;
+    font-size: 0.7em;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+.quoteBox {
+    border-radius: 5px;
+    position: relative;
+    margin: 3% auto 5% auto;
+    width: 560px;
+    padding: 40px 30px;
+    display: table;
+    color: #033109;
+    background-color: #ecf0f1;
+    box-shadow: 8px 8px 5px #000000;
+}
+
+.quoteTxt {
+    text-align: center;
+    width: 480px;
+    height: auto;
+    font-weight: 600;
+    font-size: 2em;
+    text-shadow: 3px 3px 3px #bfc9ca;
+}
+
+    .quoteTxt i {
+        font-size: 0.9em;
+        margin-right: 0.3em;
+        color: #033109;
+    }
+
+.quoteAuth {
+    text-align: center;
+    width: 480px;
+    height: auto;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-top: 15px;
+    text-shadow: 3px 3px 2px #bfc9ca;
+}
+
+.buttons {
+    width: 480px;
+    display: block;
+    color: #ecf0f1;
+    margin: auto;
+}
+
+.button {
+    font-size: 1em;
+    color: #ecf0f1;
+    background-color: #033109;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 42px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+    .button:hover {
+        opacity: 0.7;
+    }
+
+#tweet-it {
+    width: 42px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 9px;
+}
+
+#newQuote {
+    float: right;
 }
