@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RandomQuoteGenerator", "..\..\..\..\Desktop\dev Projects\RandomQuoteGenerator\", "{F2FD0E9D-8B46-4336-9539-7A06F100FD66}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49848"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\dev Projects\RandomQuoteGenerator\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49848\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49848"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\dev Projects\RandomQuoteGenerator\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49848\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49848"
+		SlnRelativePath = "..\..\..\..\Desktop\dev Projects\RandomQuoteGenerator\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{9611D7E5-39E8-46B6-A189-ECD941C4E717}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{C13C7B20-DCC7-4988-8DE4-3951DB948D99}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{AD94A5B8-B7D1-4212-B0E5-2E06B863365C}"
+	ProjectSection(SolutionItems) = preProject
+		main.css = main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "javascript", "javascript", "{7B93BC9C-51C8-4ADF-B404-AF5940724842}"
+	ProjectSection(SolutionItems) = preProject
+		main.js = main.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2FD0E9D-8B46-4336-9539-7A06F100FD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FD0E9D-8B46-4336-9539-7A06F100FD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C13C7B20-DCC7-4988-8DE4-3951DB948D99} = {9611D7E5-39E8-46B6-A189-ECD941C4E717}
+		{AD94A5B8-B7D1-4212-B0E5-2E06B863365C} = {9611D7E5-39E8-46B6-A189-ECD941C4E717}
+		{7B93BC9C-51C8-4ADF-B404-AF5940724842} = {9611D7E5-39E8-46B6-A189-ECD941C4E717}
+	EndGlobalSection
+EndGlobal
