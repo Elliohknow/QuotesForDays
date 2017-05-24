@@ -1,5 +1,5 @@
 // JavaScript source code
-var bsAuthors = ['Your Dad', 'Batman, I think', 'You, talking in your sleep two nights ago', 'the ghostly apparition who watches you from the far corner of your room', 'Anonymous', 'Anonymous ', 'Yo\' Mama' ];
+var bsAuthors = ['Your Dad', 'You, talking in your sleep two nights ago', 'the ghostly apparition who watches you from the far corner of your room', 'Anonymous', 'Yo\' Mama', 'Me, just now'];
 var quote = "";
 var author = "";
 function getNewQuote() {
