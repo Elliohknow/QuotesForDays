@@ -1,4 +1,5 @@
 // JavaScript source code
+var bsAuthors = ['Your Dad', 'Batman, I think', 'You, talking in your sleep two nights ago', 'the ghostly apparition who watches you from the far corner of your room', 'Anonymous', 'Anonymous ', 'Yo\' Mama' ];
 var quote = "";
 var author = "";
 function getNewQuote() {
@@ -15,16 +16,15 @@ function getNewQuote() {
             quote = response.quoteText;
             author = response.quoteAuthor;
 
-            $("#qText").text(quote);
-            
+			$("#qText").text(quote);
+			    
+			var bsAuthor = Math.floor(Math.random() * bsAuthors.length);
 
             if (author) {
                 $("#authorName").text("- " + author);
-                console.log(author);
-            } else {
-                $("#authorName").text(
-                    "- Your Dad. Seriously, he used to go around saying this all the time."
-                );
+                
+			} else {
+				$("#authorName").text("- " + bsAuthor);
             }
         }
     });
