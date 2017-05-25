@@ -24,7 +24,7 @@ function getNewQuote() {
                 $("#authorName").text("- " + author);
                 
 			} else {
-				$("#authorName").text("- " + bsAuthor);
+				$("#authorName").text("- " + bsAuthors[bsAuthor]);
             }
         }
     });
